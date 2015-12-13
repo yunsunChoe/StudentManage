@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#404a58"
+        android:gravity="center_vertical|center" >
+
+        <TextView
+            android:id="@+id/nsHomeworkAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="과제내용"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etAddHomework_homework"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hw_edit_text"
+        android:ems="10"
+        android:lines="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#404a58"
+        android:gravity="center_vertical|center" >
+
+        <TextView
+            android:id="@+id/nsDeadLine_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="과제 제출일"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etDeadLine_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hw_edit_text2"
+        android:ems="10"
+        android:inputType="date" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

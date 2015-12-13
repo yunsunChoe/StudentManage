@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spClass_grade"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/spinner" />
+
+        <Spinner
+            android:id="@+id/spTest_grade"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/spinner" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#abfffe"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/nsTotalGrade_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전체평균점수"
+                    android:textColor="#414141"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvTotalGrade_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="#414141"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#abfffe"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/nsStudent_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="학생 점수"
+                    android:textColor="#414141"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvStudent_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="#ff0000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

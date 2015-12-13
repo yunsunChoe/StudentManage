@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/attend"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spClass_attendance"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/spinner" />
+
+    <Button
+        android:id="@+id/btnSelect_Attendance"
+        android:layout_width="104dp"
+        android:layout_height="38dp"
+        android:background="@drawable/attendance_btn_1"
+        android:onClick="onClick" />
+
+    <ListView
+        android:id="@+id/lvAttendanceList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnSave_Attendance"
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:background="@drawable/attendance_btn_2"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+</LinearLayout>

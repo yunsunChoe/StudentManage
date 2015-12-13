@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spClassname_homework"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/spinner" />
+
+        <TextView
+            android:id="@+id/tvDate_homework"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvHomeworkList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" >
+
+    </ListView>
+
+</LinearLayout>
